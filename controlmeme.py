@@ -3,7 +3,6 @@ import config
 
 import cv2
 import einops
-import gradio as gr
 import numpy as np
 import torch
 import random
@@ -19,7 +18,7 @@ from share import *
 model = None
 ddim_sampler = None
 
-def load_model(cn_model):
+def load_model(cn_model, location="cuda"):
     global model
     global ddim_sampler
 
@@ -28,8 +27,11 @@ def load_model(cn_model):
     torch.cuda.empty_cache()
 
     model = create_model('./models/cldm_v15.yaml').cpu()
-    model.load_state_dict(load_state_dict(cn_model, location='cuda'))
-    model = model.cuda()
+    model.load_state_dict(load_state_dict(cn_model, location=location))
+    
+    if location=="cuda":
+      model = model.cuda()
+    
     ddim_sampler = DDIMSampler(model)
 
 #TODO check if working 
