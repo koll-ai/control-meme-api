@@ -5,7 +5,8 @@ GPU API for https://meme.koll.ai
 
 # 4 click colab Usage
 
-Run the colab API [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) (https://colab.research.google.com/github/koll-ai/control-meme-api/blob/main/Controlmeme_Colab_API.ipynb])
+Run the colab API 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/https://colab.research.google.com/github/koll-ai/control-meme-api/blob/main/Controlmeme_Colab_API.ipynb)
 
 
 * Restart the kernel after the fist cell
