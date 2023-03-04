@@ -5,7 +5,8 @@ GPU API for https://meme.koll.ai
 
 # 4 click colab Usage
 
-Run the colab API <a href=\"https://colab.research.google.com/github/koll-ai/control-meme-api/blob/main/Controlmeme_Colab_API.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>
+Run the colab API [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) (https://colab.research.google.com/github/koll-ai/control-meme-api/blob/main/Controlmeme_Colab_API.ipynb])
+
 
 * Restart the kernel after the fist cell
 * Click on the https://meme.koll.ai?gpuURL=XXX link to be redirected to the web app
