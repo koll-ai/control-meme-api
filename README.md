@@ -1,16 +1,14 @@
-# control-meme-api
+# KollAI's ControlMeme API
 
-GPU API for https://meme.koll.ai
+StableDiffusion backend API for https://meme.koll.ai
 
+## How to use ControlMeme generation backend
 
-# 4 click colab Usage
+1. Open the notebook
 
-Run the colab API   
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/https://colab.research.google.com/github/koll-ai/control-meme-api/blob/main/Controlmeme_Colab_API.ipynb)
+<a href="https://colab.research.google.com/github/koll-ai/control-meme-api/blob/main/Controlmeme_Colab_API.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+2. Run all cells until you see a meme.koll.ai link at the bottom of the page (this can take up to 5mn)
+<img src="https://raw.githubusercontent.com/koll-ai/control-meme-api/main/images/run_all.png" style="height: 100px; width=auto">
 
-* Restart the kernel after the fist cell
-* Click on the https://meme.koll.ai?gpuURL=XXX link to be redirected to the web app
-* Wait for Automatic1111 webui API to start
-  * You can view logs in the file /content/output_webui.txt. Once you see the a link, it's started
-* Generate Controlnet Memes! 
+3. Click the link and start creating new memes !
